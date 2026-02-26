@@ -6,12 +6,14 @@
 
 ## For what tasks?
 
-- **Code generation:** Used Claude (Anthropic) to generate the CNN model architecture, training loop, and data loading pipeline based on the competition requirements and starter notebook.
-- **Explanation:** Used AI to understand best practices for CNN architecture design and hyperparameter selection.
+- **Code generation:** Used Claude (Anthropic) to generate the MLP model architecture, training loop, data augmentation pipeline, and data loading code based on the competition requirements and starter notebook.
+- **Architecture adaptation:** Used AI to convert the original CNN-based approach to a fully connected MLP architecture, including determining appropriate layer sizes, dropout rates, and augmentation strategies for an MLP on image data.
+- **Explanation:** Used AI to understand best practices for MLP design on image classification tasks and the tradeoffs vs convolutional approaches.
 - **Debugging/Review:** Used AI assistance to review code structure and ensure correctness of the training pipeline.
 
 ## Which parts of the work are fully yours?
 
+- Decision to use MLP architecture as required by the assignment
 - Final model selection and hyperparameter tuning decisions
 - Running experiments and evaluating results on Kaggle
 - Interpretation of results and validation strategy
